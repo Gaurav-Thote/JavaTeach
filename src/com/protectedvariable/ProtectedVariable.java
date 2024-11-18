@@ -1,12 +1,12 @@
 package com.protectedvariable;
 
-import com.basic1.AccessModifiers;
+import com.basic.AccessModifier;
 
-public class ProtectedVariable extends AccessModifiers {
+public class ProtectedVariable extends AccessModifier {
 
 	public static void main(String[] args) {
 		
-		AccessModifiers am = new AccessModifiers();
+		AccessModifier am = new AccessModifier();
 		System.out.println(am.publicVariable);
 				
 		ProtectedVariable pv = new ProtectedVariable();
